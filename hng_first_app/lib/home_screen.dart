@@ -38,7 +38,7 @@ class HomeScreen extends StatelessWidget {
                   ),
                   recognizer: TapGestureRecognizer()
                     ..onTap = () async {
-                      Uri url = Uri.parse("https://github.com/techie-dan/hng_mobileApp");
+                      Uri url = Uri.parse("https://github.com/techie-dan/hng_first_app");
                       if (await canLaunchUrl(url)) {
                         await launchUrl(url, mode: LaunchMode.externalApplication);
                       } else {
